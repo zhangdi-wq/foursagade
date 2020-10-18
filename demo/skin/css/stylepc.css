@@ -1,0 +1,231 @@
+body{
+	font-family: "PINGFANG_REGULAR","微软雅黑","Arial", "Microsoft YaHei","Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.container .menu{
+	width: 240px;
+	margin-left: 130px;
+	float: left;
+	border-right: 1px solid #aaa;
+}
+
+
+.container .menu h3{
+    font-size: 20px;
+    cursor: pointer;
+    width: 53%;
+    font-weight: bold;
+    overflow: hidden;
+    background: #3b9ff5;
+    padding-left: 41px;
+    padding-right: 60px;
+    margin-bottom: 3px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.container .menu ul{
+    display: none;
+}
+.container .menu ul li{
+	height: 30px;
+    line-height: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+
+.container .menu ul li a:hover{
+	width: 95%;
+}
+.container .menu .selected{
+	display: block;
+    width: 95%;
+    background: #008BD6;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.container .content{
+	margin-top: 15px;
+	width: 860px;
+	margin-left: 400px;
+}
+
+.container .content .get-menu{
+	margin-left: -10px;
+}
+
+.container .content .get-menu a{
+	display: inline-block;
+	font-size: 15px;
+    height: 40px;
+}
+
+.container .content .get-menu a:last-child{
+	margin-left: -8px;
+	color: #7D9EC0;
+}
+
+.container .content .get-menu span{
+	display: inline-block;
+    height: 40px;
+    margin-left: -110px;
+}
+
+.container .content .menu1 .tab {
+	display: none;
+}
+
+.container .content .menu1 .active{
+	display: block;
+}
+
+.container .content .menu1 .tab p{
+	font-size: 14px;
+	line-height: 20px;
+	color: rgb(119, 118, 118);
+    word-break:break-all;
+}
+
+.container .content .menu1 .tab .tt{
+	font-size: 14px;
+	font-weight: bold;
+
+}
+/*第二个菜单下的文档内容*/
+.container .content .menu2 .tab {
+	display: none;
+}
+
+.container .content .menu2 .active{
+	display: block;
+}
+
+.container .content .menu2 .tab p{
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(0,0,0,0.8);
+    word-break:break-all;
+}
+
+.container .content .menu2 .tab .tt{
+	font-size: 14px;
+	font-weight: bold;
+
+}
+/*第三个菜单下的文档内容*/
+.container .content .menu3 .tab {
+	display: none;
+}
+
+.container .content .menu3 .active{
+	display: block;
+}
+
+.container .content .menu3 .tab p{
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(0,0,0,0.8);
+    word-break:break-all;
+}
+
+.container .content .menu3 .tab .tt{
+	font-size: 13px;
+	font-weight: bold;
+
+}
+.jsw_python{
+	width: 100%;
+}
+.jsw_python ul{
+	width: 90%;
+	/*display: flex;
+    justify-content: space-between;*/
+}
+.jsw_python ul li{
+	width: 325px;
+	box-shadow: 0 0 4px #c8c8ca;
+	border-radius: 8px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}	
+.jsw_python ul li p{
+	font-size: 12px !important;
+	color: rgb(72, 71, 71) !important;
+	padding: 10px;
+	border-radius: 4px;
+	height: 60px;
+}
+.jsw_python ul li a{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 80px;
+    color: #fff;
+    font-size: 12px;
+    background: #3b9ff5;
+    border-radius: 4px;
+}
+.menu_tab{
+	width: 90%;
+    text-align: justify;
+    vertical-align: top;
+}
+.jsw_shiyong{
+	width: 90%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.jsw_shiyong h3{
+	background: #3b9ff5;
+    padding: 10px;
+    color: #fff;
+}
+.jsw_shiyong p{
+	padding: 10px !important;
+    color: #525252 !important;
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
